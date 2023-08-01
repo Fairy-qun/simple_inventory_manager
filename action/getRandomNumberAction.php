@@ -9,7 +9,8 @@ try {
   // 调用数据库中存在的自定义函数更新
 
 
-  $sql = "update daily_report set start_quantity = get_random_number(),endbound_quantity = NVL(start_quantity,0) + NVL(inbound_quantity,0) - NVL(outbound_quantity,0)";
+  // $sql = "update daily_report set start_quantity = get_random_number(),endbound_quantity = NVL(start_quantity,0) + NVL(inbound_quantity,0) - NVL(outbound_quantity,0)";
+  $sql = "update daily_report set start_quantity = get_random_number(),endbound_quantity = get_random_number()";
   $stem = $pdo->prepare($sql);
   $stem->execute();
 
