@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.index_page {
+  flex: 1;
+  position: relative;
+  margin: 10px;
+}
+.index_page .titles {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+} 
+
+.index_page .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: serif;
+  font-size: 40px;
+}

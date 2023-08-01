@@ -1,0 +1,108 @@
+.toast {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+
+.dialog {
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+.close_btn {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  width: 30px;
+  height: 30px;
+}
+img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.form_item {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+}
+.form_item_remark {
+  display: flex;
+  justify-content: space-between;
+}
+textarea {
+  padding: 5px;
+  width: 420px;
+  height: 100px;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+
+
+label {
+  text-align: right;
+  width: 100px;
+  font-size: 20px;
+  font-family: serif;
+}
+input {
+  flex: 1;
+  border: 1px solid #2C3E50;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.ipt_btn {
+  width: 100%;
+  height: 40px;
+  background-color: #5DADE2;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: serif;
+  color: #fff;
+  cursor: pointer;
+}
+.btns {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.toast_title {
+  font-size: 22px;
+  font-family: serif;
+}

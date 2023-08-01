@@ -1,0 +1,26 @@
+.btn button {
+  border: none;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+  font-family: serif;
+  cursor: pointer;
+}
+
+.btn button:nth-child(1) {
+  background-color: #3498DB;
+}
+
+.btn button:nth-child(2) {
+  background-color: #58D68D;
+}
+
+.btn button:nth-child(3) {
+  background-color: #DC7633;
+}
+
+.noData {
+  text-align: center;
+  font-size: 22px;
+}
